@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-email",
+  "version": "1.0.0",
+  "description": "HTML Email Developer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vanss472/portfolio-email.git"
+  },
+  "keywords": [
+    "html",
+    "email",
+    "developer",
+    "email developer",
+    "html email",
+    "html email developer" 
+  ],
+  "author": "Vanessa Martinez",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Vanss472/portfolio-email/issues"
+  },
+  "homepage": "https://github.com/Vanss472/portfolio-email#readme"
+}
