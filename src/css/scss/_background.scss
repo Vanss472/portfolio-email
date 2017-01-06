@@ -1,0 +1,23 @@
+/* ------------------
+Background IMG, COLOR
+------------------- */
+
+//  IMG
+.bg-header {
+	background-image: url('../img/bg-header.jpg');
+	background-color: #A05CCD;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+// COLOR
+.bg-white {
+	background-color: $white;
+}
+.bg-green {
+	background-color: $green;
+}
+.bg-grey {
+	background-color: $grey;
+}

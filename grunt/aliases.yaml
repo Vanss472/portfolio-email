@@ -1,0 +1,16 @@
+# $ grunt
+default:
+  - 'clean'
+  - 'sass:dist'
+  - 'copy'
+  - 'assemble'
+  - 'juice'
+  - 'replace:src_images' 
+
+# Launch the express server and start watching
+# $ grunt serve
+serve:
+  - 'default' 
+  - 'express'
+  - 'open'
+  - 'watch'

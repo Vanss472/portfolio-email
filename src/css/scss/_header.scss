@@ -1,0 +1,38 @@
+/* ------------------
+	HEADER/TITLE
+------------------- */
+
+.header {
+	font-family: $body-font-family;
+	font-size: 40px;
+	font-weight: $body-font-weight-bold;
+	color: $white;
+	line-height: $body-line-height;
+	text-align: center;
+	padding: 30px 0 0px 0;
+}
+
+.sub-header {
+	font-family: $body-font-family;
+	font-size: 25px;
+	font-weight: $body-font-weight-regular;
+	color: $white;
+	line-height: $body-line-height;
+	text-align: center;
+	padding: 0px 0 20px 0;
+}
+
+.title {
+	font-family: $body-font-family;
+	font-size: $body-title-size;
+	font-weight: $body-font-weight-bold;
+	color: $title-color;
+	line-height: $body-line-height;
+	text-align: center;
+	padding: 30px 0 10px 0;
+}
+
+.title-bg {
+	@extend .title;
+	color: $white;
+}

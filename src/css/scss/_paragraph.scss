@@ -1,0 +1,16 @@
+/* ------------------
+	PARAGRAPH
+------------------- */
+
+.paragraph {
+	font-family: $body-paragraph;
+	font-size: $body-font-size;
+	font-weight: $body-font-weight-regular;
+	color: $body-font-color;
+	line-height: $body-line-height;
+}
+
+.paragraph-bg {
+	@extend .paragraph;
+	color: $white;
+}

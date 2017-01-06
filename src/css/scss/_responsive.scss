@@ -1,0 +1,32 @@
+/* ------------------
+	RESPONSIVE
+------------------- */
+
+@media only screen and (max-width: 480px){
+	/*  CLIENT-SPECIFIC MOBILE STYLES  */
+	body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+	body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+	
+	table[id="mainTable"], 
+	table[id="rowTable"],
+	table[class="table-about-me"],
+	table[class="table-email-portfolio"],
+	table[class="table-skills"], 
+	table[id="footerTable"] { 
+	  	width: 100% !important; 
+	} /* down from 600px */
+
+
+	table[class="table-social-icons"] {
+		width: 60% !important;
+	}
+
+	table[id="rowPortfolio"], 
+	table[id="rowSkills"] {
+		width: 50% !important;
+	}
+
+	td[class="block"] {
+		display: block !important;
+	}
+}
