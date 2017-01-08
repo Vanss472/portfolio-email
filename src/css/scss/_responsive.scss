@@ -25,6 +25,13 @@
 	table[id="rowSkills"] {
 		width: 50% !important;
 	}
+	
+	table[class="table-email-portfolio"] .mobile-pad {
+		padding: 0px 10px 10px 10px !important;
+	}
+	table[id="rowPortfolio"] td {
+		padding: 0px 10px 0px 10px !important;
+	}
 
 	td[class="block"] {
 		display: block !important;
