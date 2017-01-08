@@ -4,7 +4,8 @@
   "description": "HTML Email Developer",
   "scripts": {
     "build": "grunt",
-    "develop": "grunt serve"
+    "develop": "grunt serve",
+    "githubpages": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",

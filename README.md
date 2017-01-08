@@ -1,8 +1,8 @@
-# Vanessa Martinez Portfolio Email
+# Vanessa Martinez Portfolio Email Website
 
 I'm using Grunt task to help simplify things:
 
-1. Builds HTML email templates using Handlebar templating
+1. HTML email templates using Handlebar templating
 
 2. SCSS to Inline CSS
 
