@@ -39,6 +39,9 @@
   }
 }
 </style>
+		{% if site.google_analytics and jekyll.environment == 'production' %}
+		{% include analytics %}
+		{% endif %}
 	</head>
 	<body style="-webkit-font-smoothing: antialiased; height: 100% !important; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0; padding: 0;">
 		<div class="preheader" style="display: none; font-size: 1px; color: #333333; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">Hi There! Open your email to check Vanessa Martinez HTML Email Developer portfolio.</div>
